@@ -1,5 +1,5 @@
-    ---===Selenium Pytest Automation Framework===---
-                 made by MartinSlash0
+                                            ---===Selenium Pytest Automation Framework===---
+                                                         made by MartinSlash0
                    
 This project is a UI test automation framework I built with Python, Selenium and Pytest following the Page Object Model (POM) design pattern.
 
