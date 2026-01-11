@@ -1,7 +1,7 @@
 from pages.login_page import LoginPage
 from config import ConfigTest
 
-def test_valid_login(driver):
+def test_invalid_login(driver):
     
     login_page = LoginPage(driver)
     # Opening Page
