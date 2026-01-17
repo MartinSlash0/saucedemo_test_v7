@@ -20,4 +20,4 @@ def test_logout(driver):
     #Logging out
     store_page.logout()
     #Verifying logout
-    login_page.login_logo_is_visible(), "Failed to logout!"
+    assert login_page.login_logo_is_visible(), "Failed to logout!"
