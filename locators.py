@@ -7,9 +7,12 @@ class LocatorsLogInPage():
     PASSWORD_FIELD = (By.ID, "password")
     LOGIN_BUTTON = (By.ID, "login-button")
     ERROR_PROMPT =(By.CSS_SELECTOR, "h3[data-test='error']")
+    LOGIN_LOGO = (By.CSS_SELECTOR, "div[class='login_logo']")
 
 class LocatorsStorePage():
     APP_LOGO = (By.CSS_SELECTOR, "div[class='app_logo']")
+    BURGER_SIDEBAR = (By.ID, "react-burger-menu-btn")
+    LOGOUT_BUTTON = (By.ID, "logout_sidebar_link")
     BACKPACK_BUTTON = (By.ID, "add-to-cart-sauce-labs-backpack")
     CART_BUTTON = (By.CSS_SELECTOR, "a[class='shopping_cart_link']")
     CHECKOUT_BUTTON = (By.ID, "checkout")
