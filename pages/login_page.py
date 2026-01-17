@@ -23,10 +23,10 @@ class LoginPage(BasePage):
         # Clicking button
         login_button.click()
     
-    def is_logged_in(self):
-        # Verify login success
-        app_logo =  self.wait_for_presence(LocatorsStorePage.APP_LOGO)
-        return app_logo.is_displayed()
+    def login_logo_is_visible(self):
+        #Verify page loading
+        login_logo = self.wait_for_presence(LocatorsLogInPage.LOGIN_LOGO)
+        return login_logo.is_displayed()
     
     def is_cred_invalid(self):
         # Verifying login was denied
