@@ -46,8 +46,8 @@
                               
                               1) Clone my repository
                               
-                              --> git clone https://github.com/your-username/your-repo-name.git
-                              cd your-repo-name
+                              --> git clone https://github.com/MartinSlash0/saucedemo_selenium_python_v7.git
+                              cd saucedemo_selenium_python_v7
                               
                               2) Install dependencies
                               
