@@ -47,7 +47,7 @@
                               1) Clone my repository
                               
                               --> git clone https://github.com/MartinSlash0/saucedemo_test_v7.git
-                              cd saucedemo_test_v7
+                              --> cd saucedemo_test_v7
                               
                               2) Install dependencies
                               
